@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-export const API_BASE = import.meta.env.VITE_API_URL || 'https://localhost:7085/api'
+export const API_BASE = import.meta.env.VITE_API_URL || 'https://roompgbookingapi20260911152044-efb5b7b9bme0cqck.westus3-01.azurewebsites.net/api'
 
 export const api = axios.create({ baseURL: API_BASE })
 

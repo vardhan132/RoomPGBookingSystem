@@ -1,9 +1,20 @@
 .vs/
+
 bin/
+
 obj/
+
 node_modules/
+
 dist/
+
 .env
+
 .vscode/
+
 *.user
+
 *.suo
+
+# Visual Studio publish profiles
+**/Properties/PublishProfiles/
